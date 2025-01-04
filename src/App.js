@@ -1,13 +1,22 @@
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-import './App.css'
-
+import "./App.css";
+//parent
 function App() {
+  const data = [
+    "example",
+    "example",
+    "example",
+    "example",
+    "example",
+    "example",
+    "example",
+  ];
   return (
     <div className="app">
       <Navbar />
-      <Hero />
+      <Hero data={data} />
       <Footer />
     </div>
   );
